@@ -1,0 +1,19 @@
+#photo1{
+    width: 876px;
+    height: 379px;
+}
+hr{
+    color:  rgba(0,0,0,.85) ;
+    margin-top: 2%;
+}
+h1{
+    color: rgba(0,0,0,.85);
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+h2{
+    color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
