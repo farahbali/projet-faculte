@@ -9,20 +9,20 @@ ul{
     overflow: hidden;
     background-color:black;
     padding: 0%;
-    height: 30px;
+    height: 55px;
 }
 li{
     float: left;
 }
 li a{
-    font-size: 10px;
+    font-size: 18px;
     font-weight: bold;
     display: block;
     color:white;
     text-align: center;
-    padding: 9px 16px;
+    padding: 16px 16px;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 li a:hover{
     background-color: white;
