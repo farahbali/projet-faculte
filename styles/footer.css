@@ -1,0 +1,94 @@
+.footer{
+    margin-top: 15%;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    height: 280px;
+    font-family: 'Roboto', sans-serif;
+    color:#FBFCFC;
+    padding-bottom: 4%;
+}
+.footer-title{
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+}
+#title{
+    color:#FBFCFC;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#title:hover{
+    color: red;
+}
+#title:hover .S{
+    color:#FBFCFC;
+}
+.S{
+    font-family: 'Hurricane', cursive;
+    font-size: 60px;
+    color: red;
+}
+.nolink{
+    text-decoration: none;
+}
+
+.sub-titles{
+    padding:40px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 5%;
+    
+}
+.sub-title{
+    color: #FBFCFC;
+    font-weight: 300;
+}
+h3{
+    font-weight: 400;
+}
+.footer-body{
+    position: relative;
+    top:-20px;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    font-weight: 300;
+    display: flex;
+}
+.footer-icons{
+    position: relative;
+    left:40.2%;
+    display: flex;
+}
+.icons{
+    margin-block-start: 1.33em;
+}
+.fab{
+    padding-left: 20px;
+}
+
+#footer-hr{
+    width: 95%;
+    position: relative;
+    top:-20px;
+}
+.compte{
+    text-decoration: none;
+    color: white;
+}
+
+#sub1:hover{
+    text-decoration: underline;
+}
+
+#sub2:hover{
+    text-decoration: underline;
+}
+h4{
+    color: #FBFCFC;
+    padding-top: 6%;
+}
+
+
