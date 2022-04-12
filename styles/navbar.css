@@ -25,8 +25,8 @@ li a{
     margin-left: 80px;
 }
 li a:hover{
-    background-color: white;
-    color: black;
+color: black;
+background-color: white;
 }
 i{
     margin-right: 10px;

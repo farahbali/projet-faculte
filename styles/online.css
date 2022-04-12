@@ -1,0 +1,61 @@
+.stdon{
+    width: 600px;
+   }
+   .stdon img{
+       width: 599px;
+   }
+   .stdp1{
+   font-family: 'M PLUS 2', sans-serif;  
+       font-size: 60px;
+   }
+   #lip{
+       font-family: 'M PLUS 2',sans-serif;
+       font-weight: 300;
+   }
+   .stdondesc1 li{
+       font-family: 'M PLUS 2',sans-serif;
+       font-weight: 300; 
+   }
+   .stdondescp1{
+       font-family: 'M PLUS 2', sans-serif;  
+       font-size: 30px;  
+   }
+   .stdondesc{
+       font-family: 'M PLUS 2',sans-serif;
+       font-weight: 300;   
+   }
+   #lip{
+       text-align: left;
+       padding: 0px;
+       margin-left: 2%;
+   }
+   #button{
+       background-color: white;
+       margin-left: 1%;
+   }
+   #button:hover{
+       background-color: black;
+       color: white;
+   }
+   #titlebutt{
+       font-family: 'M PLUS 2',sans-serif;
+       font-weight: 400;
+       margin-left: 2%;
+       border-bottom: 1px solid white;
+       border-top: 1px solid white;
+   }
+   .stdonpic{
+       border-radius: 2%;
+       margin-left: 1%; 
+   }
+   #button1{
+       background-color: white;
+       margin-left:5.7%
+            }
+   #button1:hover{
+       background-color: black;
+       color: white;
+    }
+    .titlebutt-specifique{
+        width: 832px;
+    }

@@ -1,11 +1,14 @@
+
+.content{
+    
+    color: #FBFCFC;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 .footer{
-    margin-top: 15%;
     width: 100%;
     background: rgb(15, 15, 15);
-    height: 280px;
-    font-family: 'Roboto', sans-serif;
-    color:#FBFCFC;
-    padding-bottom: 4%;
+    
 }
 .footer-title{
     padding:20px;
@@ -39,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     width: 300px;
-    margin-right: 5%;
+    margin-right: 200px;
     
 }
 .sub-title{
@@ -58,15 +61,22 @@ h3{
     display: flex;
 }
 .footer-icons{
-    position: relative;
-    left:40.2%;
-    display: flex;
+    
+    margin-left:40.2%;
+    
+    
+    
+}
+.footer{
+    overflow: hidden;
 }
 .icons{
     margin-block-start: 1.33em;
+    
 }
 .fab{
     padding-left: 20px;
+    
 }
 
 #footer-hr{
@@ -74,7 +84,7 @@ h3{
     position: relative;
     top:-20px;
 }
-.compte{
+#cont{
     text-decoration: none;
     color: white;
 }
@@ -86,9 +96,8 @@ h3{
 #sub2:hover{
     text-decoration: underline;
 }
-h4{
-    color: #FBFCFC;
-    padding-top: 6%;
+.footerh4{
+    color: white;
+    font-weight: 300;
+    
 }
-
-

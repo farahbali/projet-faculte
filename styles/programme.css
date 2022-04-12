@@ -1,0 +1,403 @@
+.fr{
+    background-color:  #e76f51;
+}
+.fr-title{
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-bottom: -60px;
+    display: inline-block;
+    height: 5px;
+}
+.fr-par{
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:25px;
+    font-weight: lighter;
+    padding: 30px;
+    height: 300px;
+}
+.frp{
+    padding: 10px;  
+}
+.propfr01{
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    margin-left: 2.5%;
+    display: inline-block;    
+}
+.propfr1{
+   padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propfr02{
+    width: 140px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block;  
+}
+.propfr2{
+   padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propfr03{
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block; 
+}
+.propfr3{
+   padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propfr04{
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block;
+}
+.propfr4{
+   padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.frpic{
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+.en{
+    background-color: #D7DBDD;
+}
+.en-title{
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 60px;
+    display: inline-block;
+    margin-bottom: -60px;
+    height: 5px;
+}
+.en-par{
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:25px;
+    font-weight: lighter;
+    padding: 30px;
+    height: 300px;  
+}
+.enp{
+    padding: 10px;
+}
+.propen01{
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block;
+    margin-left: 2.5%;   
+}
+.propen1{
+   padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propen02{
+    width: 140px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block;  
+}
+.propen2{
+   padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propen03{
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block; 
+}
+.propen3{
+   padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propen04{
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block; 
+}
+.propen4{
+   padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.enpic{
+    float: right;
+    width: 500px;
+    height: 500px;
+      }
+.sp{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(250, 220, 50);
+}
+.sp-title{
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-bottom: -60px;
+    display: inline-block;
+    height: 5px;
+}
+.sp-par{
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:25px;
+    font-weight: lighter;
+    padding: 30px;
+    height: 300px; 
+}
+.spp{
+    padding: 10px;  
+}
+.propsp01{
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block;
+    margin-left: 2.5%;     
+}
+.propsp1{
+   padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propsp02{
+    width: 140px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;   
+    display: inline-block;    
+}
+.propsp2{
+   padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propsp03{
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block;      
+}
+.propsp3{
+   padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.propsp04{
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    display: inline-block;   
+}
+.propsp4{
+   padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+}
+.sppic1{
+    float: right;
+    left: 10px;
+    width: 400px;
+    height: 400px;
+}
+.gps-desc{
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 100;
+    display: inline-block
+}
+.gr{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(15,15,15); 
+}
+.gr-title{
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    display: inline-block;
+    height: 5px;
+}
+.gr-par{
+    color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:25px;
+    font-weight: lighter;
+    padding: 30px;
+    height: 300px;  
+}
+.grp{
+    padding: 10px;   
+}
+.propgr01{
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    display: inline-block;
+    border-width: thin;
+    margin-left: 2.5%;
+}
+.propgr1{
+   padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+    color: white;
+}
+.propgr02{
+    width: 140px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    display: inline-block;
+    border-width: thin;   
+}
+.propgr2{
+   padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+    color: white;
+}
+.propgr03{
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    display:inline-block;
+    border-width: thin;  
+}
+.propgr3{
+   padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+    color: white;
+}
+.propgr04{
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    display: inline-block;  
+}
+.propgr4{
+   padding-top: 10px;
+    padding-left: 12px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+    color: white;
+}
+.grpic{
+    float: right;
+    width: 400px;
+    height: 500px;
+     }
+.calendarpic{
+    width:30px;
+    height: 30px;
+    margin-left:35px;
+}
+.clockpic{
+    width:30px;
+    height: 30px;  
+}
+.gpspic{
+    width:30px;
+    height: 30px;
+    margin-left: 2.5%;
+}
+.laptoppic{
+    width:30px;
+    height: 30px;
+    margin-left: 35px;  
+}
+#desc{
+    display: inline-block;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 100;
+    margin-left: 5px;
+}
+#descgr{
+    display: inline-block;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 100;
+    margin-left: 5px;
+    color: white;   
+}
+.props{
+    height: 70px;
+}

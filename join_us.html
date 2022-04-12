@@ -5,15 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fe083d4aa1.js" crossorigin="anonymous"></script>
-    <title>ICAN_SPEAKIT</title>
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="icon" href="assetes/icon.png">
+    <title>ICanSpeakIt</title>
+    <link rel="stylesheet" href="styles/Project.css">
+    <link rel="icon" href="assetes/icon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-               <li> <a href="home.html">  <i class="fab fa-speaker-deck"></i></a>  </li>
+                <li> <a href="home.html">  <i class="fab fa-speakap"></i></a>  </li>
             <li><a href="home.html" ><i class="fas fa-home"></i>HOME </a></li>
             <li><a href="programme.html" ><i class="fas fa-sticky-note"></i> PROGRAMME</a></li>
             <li><a href="online.html"><i class="fas fa-laptop-code"></i> ONLINE</a></li>
@@ -21,5 +26,120 @@
              </ul>
         </nav>
     </header>
+    <main> <!--formulaire-->
+      <div class="joinUS">
+          <div class="titre">
+              <h1>Inscrivez-vous pour nous rejoindre </h1>
+              <h3>Demarrer votre apprentissage</h3>
+          </div>
+           <form id="formulaire">
+               <div class="id-client">
+               <fieldset>
+                   <div class="id-primaire">
+                       <div>
+            <label> Prenom<p class="ps">*</p> </label><br>
+            <input type="text"  name="formulaire-id" id="PRENOM" onblur="verifyPrenom()" required >
+            <div id="prenom"></div> 
+            </div>
+            <div>
+            <label > Nom<p class="ps">*</p></label><br>
+            <input type="text"  name="formulaire-id" id="NOM" onblur="verifyNom()" required>
+            <div id="nom"></div>
+            </div>
+            </div>
+            <div class="identifiant">
+            <label > Numéro de téléphone<p class="ps">*</p> </label><br>
+            <input type="text"  name="formulaire-id" id="numero" onblur="verifyNumero()" required>
+            <div id="erreurNum"></div>
+            </div>
+            <div  class="identifiant">
+            <label >E-mail </label><br>
+            <input type="email"  name="formulaire-id" id="mail" onblur="verifyEmail()" required>
+            <div id="erreurMail"></div>
+            </div>
+            <div  class="identifiant">
+            <label >Date de naissance</label><br>
+            <input type="date"  name="date" id="date">
+            </div>
+               </fieldset></div>
+               <div class="select-cours">
+                   <fieldset>
+                       <div class="select-option">
+                <label > Methode désiré </label><br>
+                <select  name="liste" >
+                    <option> Veuillez selectionner une methode</option>
+                    <option >Présentiel </option>
+                    <option> En ligne</option>
+                  </select></div>
+                  <div id="erreurSelect"></div>
+                  <div class="select-option">
+                  <label>courses</label><br>
+                  <input type="checkbox" name="cours" id="ang">
+                  <label for="ang"> Anglais</label><br>
+                  <input type="checkbox" name="cours" id="fr">
+                  <label for="fr"> Français</label><br>
+                  <input type="checkbox" name="cours" id="esp">
+                  <label for="esp"> Espagnol</label><br>
+                  <input type="checkbox" name="cours" id="al">
+                  <label for="al"> allemand</label>
+                  </div>
+                  <div id="erreurCheck"></div>
+                  </fieldset>
+               </div>
+               <div class="payement">
+                   <fieldset>
+                   <legend> payement</legend>
+                     <div class="MethodePayement">
+                     <input type="radio" name="payer" id="virement">
+                     <label for="virement">Par virement bancaire </label></div><br>
+                    <div class="MethodePayement"> <input type="radio" name="payer" id="par-mandat">
+                     <label for="par-mandat">Par virement bancaire </label></div><br>
+                    <div class="MethodePayement"> <input type="radio" name="payer" id="presentiel">
+                     <label for="presentiel">Dans l’un de nos hackerspaces </label></div>
+                     <div id="erreurPayer"></div>
+                   </fieldset>
+                 
+                </div>
+                <a href=""><input type="submit" value="soumettre" id="submit" onclick="verify()"></a>
+                <a href=""><input type="reset" value="annuler" id="reset" class="from-top"></a>
+           </form>
+           <script src="javascript/joinUS.js"></script>
+      </div>
+    </main>
+    <footer>
+<div class="content">
+        <div class="footer">
+            <div class="footer-title">
+                <a href="home.html" class="nolink"><h1 id="title">I Can<span class="S">S</span>peak It</h1></a>
+                <div class="sub-titles">
+                    <a href="F:\Study\Sem1\Rebirth\Prog Web\Important Shit\Project\New folder\Sous-tenance WEB\home.html #ist" class="nolink sub-title"><h3 id="sub1">Instructors</h3></a>
+                    <a href="F:\Study\Sem1\Rebirth\Prog Web\Important Shit\Project\New folder\Sous-tenance WEB\home.html #std" class="nolink sub-title"><h3 id="sub2">Students</h3></a>
+                </div>
+            </div>
+            <div class="footer-body">
+                <div>
+                    <p>Address: Lac 1, 7070 Tunis</p>
+                <p>E-mail: icanspeakittn@gmail.com</p>
+                <p>Phone: +216 72 457 056 | +216 92 619 515</p>
+                </div>
+                
+                <div class="footer-icons">
+                    <h4 class="footerh4">Follow Us |</h4>
+                    <div class="icons">
+                        <a target="_blank" id="cont" href="https://www.facebook.com/I-Can-Speak-It-100437475804269"    <i class="fab fa-facebook"></i> </a>
+                <a target="_blank" id="cont" href="https://www.instagram.com/icanspeakittn/"<i class="fab fa-instagram"></i> </a>
+                <a target="_blank" id="cont" href="https://www.youtube.com/channel/UCMNDo5m1D0Hfpyc5LMJ1HbQ"<i class="fab fa-youtube"></i> </a>
+                <a target="_blank" id="cont" href="https://twitter.com/ICanSpeakItTN"<i class="fab fa-twitter"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <hr id="footer-hr">
+        </div>
+        </div>
+</footer>
+
 </body>
 </html>
+
+        
+    

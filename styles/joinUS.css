@@ -1,0 +1,161 @@
+
+.joinUS{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.titre{
+    color:rgb(15, 15, 15);
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 4%; 
+    margin-right: 35%;
+}
+.titre>h3{
+font-size: 22px;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 2px;
+color:rgb(229, 9, 20);
+padding-top: 2%;
+padding-bottom: 5%;
+}
+fieldset{
+    width: 750px;
+    border-radius: 7%;
+    border: 3px solid darkred;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 15, 15);
+    /* color:#001219; */
+    font-weight:bolder;
+}
+.ps{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 1%;
+    display: inline-block;
+}
+.id-client{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+.id-client input{
+    height: 47px;
+    background-color: transparent;
+    border:2px solid rgb(15, 15, 15);
+    outline: none;
+    margin-top: 1%;
+    width:70.3%!important;
+}
+.id-primaire{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right:14%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.identifiant{
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.select-cours{
+    padding-bottom: 1%;
+}
+.select-option{
+    padding-left: 20%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(15, 15, 15);
+    font-size: 22px;
+    padding-top: 3%;
+}
+.select-option input[type=checkbox]{
+    margin-top:2%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+
+}
+select{
+    width: 480px;
+    height: 50px;
+    background-color: transparent;
+    color:rgb(15, 15, 15);
+    margin-top: 2%;
+    border: 2px solid rgb(15, 15, 15);
+    margin-bottom: 2%;
+}
+option{
+ background-color: white;
+}
+.payement{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: rgb(15, 15, 15);
+}
+legend{
+    padding-left: 40%;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.MethodePayement{
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+input[type="submit"]{
+    background-color:transparent;
+    color:#212529;
+    font-size: 23px;
+    letter-spacing: 1px;
+    width: 30%;
+    outline: none;
+    line-height: 47px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    }
+input[type="submit"]:hover, input[type="reset"]:hover{
+background-color: darkred;
+border-color: white;
+color: white;
+}
+
+input[type="reset"]{
+    background-color:transparent;
+    color: #212529;
+    font-size: 23px;
+    letter-spacing: 1px;
+    width: 30%;
+    outline: none;
+    line-height: 47px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+}
+          /* validation de formulaire */
+
+#erreurNum , #erreurMail,#nom,#prenom {
+    color:red;
+    margin-top: 5%;
+    margin-right:4%;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#erreurPayer,#erreurCheck,#erreurSelect{
+color:red;
+margin-bottom: 2%;
+margin-left: 4%;
+font-size: 15px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+}
+
