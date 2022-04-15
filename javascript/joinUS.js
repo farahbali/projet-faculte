@@ -56,7 +56,7 @@ else{
     // <verification de select et les deux  check>
     function verify(){
         liste1=document.getElementsByTagName("option");
-        liste2=document.getElementsByName("cours");
+        liste2=document.getElementsByName("cours[]");
         liste3=document.getElementsByName('payer');
         erreurSelect=document.getElementById("erreurSelect");
         erreurPayer=document.getElementById("erreurPayer");

@@ -31,4 +31,12 @@ background-color: white;
 i{
     margin-right: 10px;
 }
+.admin{
+    color:rgba(255, 0, 0, 0.776);
+}
+.admin:hover{
+    background-color:rgba(255, 0, 0, 0.776);
+    color:black;
+}
+
 

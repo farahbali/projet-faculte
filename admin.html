@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fe083d4aa1.js" crossorigin="anonymous"></script>
+    <title>ICanSpeakIt</title>
+    <link rel="stylesheet" href="styles/Project.css">
+    <link rel="icon" href="assetes/icon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+        <li> <a href="home.html">  <i class="fab fa-speakap"></i></a>  </li>
+            <li><a href="home.html" ><i class="fas fa-home"></i>HOME </a></li>
+            <li><a href="programme.html" ><i class="fas fa-sticky-note"></i> PROGRAMME</a></li>
+            <li><a href="online.html"><i class="fas fa-laptop-code"></i> ONLINE</a></li>
+            <li><a href="join_us.html"><i class="fas fa-file-signature"></i> JOIN US</a></li>
+            <li ><a href="admin.html" class="admin">ADMIN</a></li>
+             </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="ADMIN">
+            <!-- <div data-aos="zoom-in-right"></div> -->
+            <div id="admin-titre"><div data-aos="flip-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2800">
+            <a href="#" class="nolink"><h1 id="title1">I Can<span class="S">S</span>peak It</h1></a></div>
+            <div class="admin-sousTitre">
+            <h2>Voullez vous modifier le contenus du plateform ?</h2>
+            <h4>Saissiser votre identifiant admin et votre mot de pass maintenant ...</h4></div>
+        </div>
+         <div id="admin-form">
+          <form method="post" action="php/admin.php">
+              <div class="Identifiant">
+                  <div id="label-identifiant">
+                     <label><i class="fa-solid fa-user"></i>Identifiant </label></div>
+             <div> <input type="text" name="identifiant" id="identifiant" placeholder="   entrer votre identifiant.." onblur="verify_username()" required></div>
+              <div id="identifiant_valide"></div></div>
+              <div class="mdp">
+                  <div id="label-mdp">
+              <label><i class="fa-solid fa-key"></i>Mot de passe</label></div>
+              <div><input type="password" name="mdp" id="mdp" placeholder="    entrer votre mot de passe.." onblur="verify_mdp()" required></div>
+              <div id="mdp_valide"></div>
+              </div>
+              <div id="rememberMe">
+              <input type="checkbox" value="rememberMe" id="remember" name="remember">
+              <label for="remember">Remember me 👧🏻👦🏻</label>
+              </div>
+              <div id="admin-connect">
+                 <input type="submit" value="Se connecter" id="seconnecter" >
+                 <a href="formAdmin.php">se connecter</a> 
+              </div>
+          </form>
+          <script src="javascript/admin.js"></script>
+          <!-- <script src="javascript/open_form_admin.js"></script> -->
+         </div>
+        </div>
+    </main>
+    <footer>
+        <div class="content">
+            <div class="footer">
+               <div class="footer-title">
+                    <a href="home.html" class="nolink"><h1 id="title">I Can<span class="S">S</span>peak It</h1></a>
+                    <div class="sub-titles">
+                        <a href="F:\Study\Sem1\Rebirth\Prog Web\Important Shit\Project\New folder\Sous-tenance WEB\home.html #ist" class="nolink sub-title"><h3 id="sub1">Instructors</h3></a>
+                        <a href="F:\Study\Sem1\Rebirth\Prog Web\Important Shit\Project\New folder\Sous-tenance WEB\home.html #std" class="nolink sub-title"><h3 id="sub2">Students</h3></a>
+                    </div>
+                </div>
+                <div class="footer-body">
+                    <div>
+                        <p>Address: Lac 1, 7070 Tunis</p>
+                    <p>E-mail: icanspeakittn@gmail.com</p>
+                    <p>Phone: +216 72 457 056 | +216 92 619 515</p>
+                    </div>
+                    
+                    <div class="footer-icons">
+                        <h4 class="footerh4">Follow Us |</h4>
+                        <div class="icons">
+                            <a target="_blank" id="cont" href="https://www.facebook.com/I-Can-Speak-It-100437475804269"    <i class="fab fa-facebook"></i> </a>
+                    <a target="_blank" id="cont" href="https://www.instagram.com/icanspeakittn/"<i class="fab fa-instagram"></i> </a>
+                    <a target="_blank" id="cont" href="https://www.youtube.com/channel/UCMNDo5m1D0Hfpyc5LMJ1HbQ"<i class="fab fa-youtube"></i> </a>
+                    <a target="_blank" id="cont" href="https://twitter.com/ICanSpeakItTN"<i class="fab fa-twitter"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <hr id="footer-hr">
+            </div>
+            </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

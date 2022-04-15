@@ -23,6 +23,7 @@
             <li><a href="programme.html" ><i class="fas fa-sticky-note"></i> PROGRAMME</a></li>
             <li><a href="online.html"><i class="fas fa-laptop-code"></i> ONLINE</a></li>
             <li><a href="join_us.html"><i class="fas fa-file-signature"></i> JOIN US</a></li>
+            <li ><a href="admin.html" class="admin">ADMIN</a></li>
              </ul>
         </nav>
     </header>
@@ -32,55 +33,55 @@
               <h1>Inscrivez-vous pour nous rejoindre </h1>
               <h3>Demarrer votre apprentissage</h3>
           </div>
-           <form id="formulaire">
+           <form id="formulaire" action="php/joinUS.php" method="post">
                <div class="id-client">
                <fieldset>
                    <div class="id-primaire">
                        <div>
             <label> Prenom<p class="ps">*</p> </label><br>
-            <input type="text"  name="formulaire-id" id="PRENOM" onblur="verifyPrenom()" required >
+            <input type="text"  name="prenom" id="PRENOM" onblur="verifyPrenom()" required >
             <div id="prenom"></div> 
             </div>
             <div>
             <label > Nom<p class="ps">*</p></label><br>
-            <input type="text"  name="formulaire-id" id="NOM" onblur="verifyNom()" required>
+            <input type="text"  name="nom" id="NOM" onblur="verifyNom()" required>
             <div id="nom"></div>
             </div>
             </div>
             <div class="identifiant">
             <label > Numéro de téléphone<p class="ps">*</p> </label><br>
-            <input type="text"  name="formulaire-id" id="numero" onblur="verifyNumero()" required>
+            <input type="text"  name="numTell" id="numero" onblur="verifyNumero()" required>
             <div id="erreurNum"></div>
             </div>
             <div  class="identifiant">
             <label >E-mail </label><br>
-            <input type="email"  name="formulaire-id" id="mail" onblur="verifyEmail()" required>
+            <input type="email"  name="email" id="mail" onblur="verifyEmail()" required>
             <div id="erreurMail"></div>
             </div>
             <div  class="identifiant">
             <label >Date de naissance</label><br>
-            <input type="date"  name="date" id="date">
+            <input type="date"  name="date" id="date" min="1966-01-01" max="2008-12-31" required>
             </div>
                </fieldset></div>
                <div class="select-cours">
                    <fieldset>
                        <div class="select-option">
                 <label > Methode désiré </label><br>
-                <select  name="liste" >
+                <select name="liste" >
                     <option> Veuillez selectionner une methode</option>
-                    <option >Présentiel </option>
+                    <option >Presentiel </option>
                     <option> En ligne</option>
                   </select></div>
                   <div id="erreurSelect"></div>
                   <div class="select-option">
                   <label>courses</label><br>
-                  <input type="checkbox" name="cours" id="ang">
+                  <input type="checkbox"  id="ang" value="anglais" name="cours[]">
                   <label for="ang"> Anglais</label><br>
-                  <input type="checkbox" name="cours" id="fr">
+                  <input type="checkbox"  id="fr" value="francais" name="cours[]">
                   <label for="fr"> Français</label><br>
-                  <input type="checkbox" name="cours" id="esp">
+                  <input type="checkbox"  id="esp" value="espagnol" name="cours[]">
                   <label for="esp"> Espagnol</label><br>
-                  <input type="checkbox" name="cours" id="al">
+                  <input type="checkbox"  id="al" value="allemend" name="cours[]">
                   <label for="al"> allemand</label>
                   </div>
                   <div id="erreurCheck"></div>
@@ -90,11 +91,11 @@
                    <fieldset>
                    <legend> payement</legend>
                      <div class="MethodePayement">
-                     <input type="radio" name="payer" id="virement">
+                     <input type="radio" name="payer" id="virement" value="virement bancaire">
                      <label for="virement">Par virement bancaire </label></div><br>
-                    <div class="MethodePayement"> <input type="radio" name="payer" id="par-mandat">
-                     <label for="par-mandat">Par virement bancaire </label></div><br>
-                    <div class="MethodePayement"> <input type="radio" name="payer" id="presentiel">
+                    <div class="MethodePayement"> <input type="radio" name="payer" id="par-mandat" value="mandat bancaire">
+                     <label for="par-mandat">Par mandat bancaire </label></div><br>
+                    <div class="MethodePayement"> <input type="radio" name="payer" id="presentiel" value="presentiel">
                      <label for="presentiel">Dans l’un de nos hackerspaces </label></div>
                      <div id="erreurPayer"></div>
                    </fieldset>

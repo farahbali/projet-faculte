@@ -32,7 +32,14 @@
     i{
         margin-right: 10px;
     }
-    
+    .admin{
+        color:rgba(255, 0, 0, 0.776);
+    }
+    .admin:hover{
+        background-color:rgba(255, 0, 0, 0.776);
+        color:black;
+    }
+   
     /* css du footer */
 .content{
     color: #FBFCFC;
@@ -916,7 +923,7 @@ input[type="reset"]{
     margin-bottom: 2%;
     border-radius: 30px;
 }
-          /* validation de formulaire */
+          /* validation de formulaire utilisateur*/
 
 #erreurNum , #erreurMail,#nom,#prenom {
     color:red;
@@ -933,7 +940,111 @@ font-size: 15px;
 font-weight: bolder;
 font-family: 'Roboto', sans-serif;
 }
-           
+        /* css de page admin */
+#admin-titre{
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.admin-sousTitre{
+ margin-left: -2%;
+ text-align: justify;
+ margin-right: 10%;
+}
+.admin-sousTitre>h4{
+    margin-left: 5.2%;
+    text-align: justify;
+    font-size:20px;
+    color: #060607cd;
+}
+.Identifiant{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(17, 17, 17);
+    text-align: center;
+    width: 550px;
+    margin-left:33%;
+    height: 180px;
+}
+.Identifiant>div>label{
+    font-size: 25px;
+    font-weight: 900;
+    color:rgba(255, 255, 255, 0.825); 
+}
+#label-identifiant{
+    margin-top: 5%;
+    letter-spacing: 3px;
+}
+.Identifiant>div>input{
+    height: 30px;
+    background-color:white;
+    outline: none;
+    margin-top: 5%;
+    width:40%!important;
+}
+#identifiant_valide{
+    margin-left: 30%;
+    margin-top:6%;
+    margin-bottom: 2%;
+    font-size: 17px;
+    color: green;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.fa-user{
+    color: red;
+}
+.mdp{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(17, 17, 17);
+    text-align: center;
+    width: 550px;
+    margin-left:33%;
+    height: 180px;
+    margin-top: 2%;
+}
+.mdp>div>label{
+    font-size: 25px;
+    font-weight: 900;
+    color:rgba(255, 255, 255, 0.825);
+   
+}
+#label-mdp{
+    margin-top: 5%;
+    letter-spacing: 3px;
+}
+.mdp>div>input{
+    height: 30px;
+    background-color:white;
+    outline: none;
+    margin-top:5%;
+    width:40%!important;
+}
+#mdp_valide{
+    margin-left: 30%;
+    margin-top:6%;
+    margin-bottom: 2%;
+    font-size: 17px;
+    color: green;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.fa-key{
+    color: red;
+} 
+#seconnecter{
+    margin-left: 45%;
+    width: 200px;
+    margin-bottom: 2%;
+}
+#rememberMe{
+    margin-left:33%;
+    font-size: 20px;
+    margin-top: 2%;
+}
 
             
 
