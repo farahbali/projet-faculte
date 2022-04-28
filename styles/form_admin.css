@@ -178,3 +178,61 @@ form .btn input[type="submit"]{
     margin-left: 150px;
     margin-right: 150px;
 }
+form .bouton{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+form .bouton input[type="submit"]{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: linear-gradient(to top left, #000000 0%, #ee4b2b 118%);
+  border: none;
+  color: #fff;
+  padding-left: 20px;
+    padding-right: 20px;
+  border-radius:5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.bouton
+{
+    position: absolute;
+    left: 342px;
+    bottom: 100px;
+}
+.bouton1{
+    position: absolute;
+    left: 342px;
+    bottom: 220px;
+    
+}
+form .bouton1{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+form .bouton1 input[type="submit"]{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: linear-gradient(to top left, #000000 0%, #ee4b2b 118%);
+  border: none;
+  color: #fff;
+  padding-left: 20px;
+    padding-right: 20px;
+  border-radius:5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+
+}

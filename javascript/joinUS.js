@@ -84,7 +84,7 @@ else{
             alert("votre formulaire est bien reçu , merci pour votre choix")
         }
         }
-      
+  
             //   <btn reset>
 document.getElementById('formulaire').addEventListener('reset', function(e){
 e.preventDefault();

@@ -3,7 +3,7 @@
   setcookie('rememberMe',"remember",time()+60*60);
 session_start();
 echo "Bonjour 👧🏻👦🏻".$_SESSION['username'];
-echo " si  vous voulez vous déconnecter cliquer <a href='php/logout.php'>log out</a>";
+echo "si vous voulez déconnecter cliquer <a href='php/logout.php'>ici</a>";
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -33,21 +33,21 @@ echo " si  vous voulez vous déconnecter cliquer <a href='php/logout.php'>log ou
                <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
-               <form action="#" class="Modify">
+               <form action="php/modifier.php" method="post" class="Modify">
                    <div class="field">
-                     <input type="text" placeholder="Language" required>
+                     <input type="text" placeholder="Language" required name="Language">
                   </div>
                   <div class="field">
-                     <input type="text" placeholder="Instructor" required>
+                     <input type="text" placeholder="Instructor"  name="Instructor">
                   </div>
                   <div class="field">
-                     <input type="number" placeholder="chapters" required>
+                     <input type="number" placeholder="chapters" name="Chapters" >
                   </div>
                     <div class="field">
-                     <input type="number" placeholder="Duration" required>
+                     <input type="number" placeholder="Duration"  name="Duration">
                   </div>
                    <div class="field">
-                     <input type="number" placeholder="Price" required>
+                     <input type="number" placeholder="Price" name="Price">
                   </div>
                   
                   <div class="field btn">
@@ -76,27 +76,16 @@ echo " si  vous voulez vous déconnecter cliquer <a href='php/logout.php'>log ou
                      <div class="btn-layer"></div>
                      <input type="submit" value="Add">
                   </div>
-               </form>
-                
-                
-                
-                
-                
+</form>
             </div>
          </div>
       </div>
-       
-       
-       
        <div class="delimiteur"></div>
-       
-       
        <div class="wrapper" style="max-height:250px;margin-top:170px">
          <div class="title-text">
             <div class="title Modify">
                Delete Lang
             </div>
-           
          </div>
          <div class="form-container">
            
@@ -110,31 +99,20 @@ echo " si  vous voulez vous déconnecter cliquer <a href='php/logout.php'>log ou
                      <input type="submit" value="Delete">
                   </div>
                </form>
-               <form action="#" class="Add">
-                    <div class="field">
-                     <input type="text" placeholder="Language" required>
-                  </div>
-                  <div class="field">
-                     <input type="text" placeholder="Instructor" required>
-                  </div>
-                  <div class="field">
-                     <input type="number" placeholder="Chapters" required>
-                  </div>
-                   <div class="field">
-                     <input type="number" placeholder="Duration" required>
-                  </div>
-                  <div class="field">
-                     <input type="number" placeholder="Price" required>
-                  </div>
-                  <div class="field btn">
-                     <div class="btn-layer"></div>
-                     <input type="submit" value="Add">
-                  </div>
-               </form>
             </div>
          </div>
       </div>
         </div>
+        <form action="php/etudiant.php" method="post"><div class="bouton">
+                     <div class="bouton-input"></div>
+                     <input type="submit" value="Consulter Etudiant">
+                  </div>
+        </form>
+    <form action="php/cours.php" method="post"><div class="bouton1">
+                     <div class="bouton-input"></div>
+                     <input type="submit" value="Consulter Cours">
+                  </div>
+        </form>
       <script>
          const ModifyText = document.querySelector(".title-text .Modify");
          const ModifyForm = document.querySelector("form.Modify");

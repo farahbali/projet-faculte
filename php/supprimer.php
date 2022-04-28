@@ -30,7 +30,7 @@ else{
   echo "<script language=\"javascript\"> window.alert('❌😧😱le cours que vous venez de supprimer n' existe pas !!😬😕❌')</script>";
 }
 if($res2){
-  echo "<h1>la suppréssion du cours a été bien effectuer 🙌🙌</h1>";
+  echo "<h1>la suppréssion du cours $Language a été bien effectuer 🙌🙌</h1>";
 }
 mysqli_close($idcon);
 ?>
